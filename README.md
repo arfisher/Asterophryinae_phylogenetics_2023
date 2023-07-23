@@ -10,24 +10,25 @@ This repository contains updates to the phylogenetic reconstruction of Asterophr
 
 Three samples of the type species, _Oreophryne senkenbergiana_ was added to clarify the taxonomy of Oreophryne was was revealed to be polyphyletic in Hill et al 2022, 2023. We also added a sample of _Oreophryne frontifsciata_ from a location near _O. senkenbergiana_, both from the Moluku islands, Indonesia.  Whichever clade (designated _Oreophryne A_ or _B_ in Hill et al 2022) contains the type species will retain the name _Oreophryne_, and the other will be the new genus _Auparoparo_.  
 
-Added: 
+Added:  
 - _Oreophryne senkenbergiana_ BJE1120, BJE1143, BJE1144, Halmahera Island, North Maluku
 - _Oreophryne frontifsciata_ BJE1248, Halmahera Island, North Maluku
-Dropped:
+
+Dropped:  
 - _Aphantophryne pansa_ BPBM5299, BPBM8312
 
 ## aphantophryne
 
 Hill et al. 2022,2023 found various members of Aphantophryne coming out with _Oreophryne A_ or _B_. Fall 2022 We determined that the previous _Aphantophryne pansa_ samples BPBM 5299 and BPBM 8312 included in Hill et al 2022 was probably not reliable sequence. In addition we obtained new samples of Aphantophryne to include. The major changes:
 
-Dropped:
-- _Aphantophryne pansa_ BPBM5299, BPBM8312
-
 Added: 
-- _Oreophryne senkenbergiana_ BJE1120, BJE1143, BJE1144, Halmahera Island, North Maluku
-- _Oreophryne frontifsciata_ BJE1248, Halmahera Island, North Maluku
 - _Aphantophryne sabini_ Myola guest house, Central Province, Papua New Guinea
 - _Aphantophryne pansa_ Mt Yule, north lookout, Central Province, Papua New Guinea
+- _Oreophryne senkenbergiana_ BJE1120, BJE1143, BJE1144, Halmahera Island, North Maluku
+- _Oreophryne frontifsciata_ BJE1248, Halmahera Island, North Maluku
+
+Dropped:
+- _Aphantophryne pansa_ BPBM5299, BPBM8312
 
 In addition we tested serveral samples from older collections of Aphantophryne pansa from English Peaks and ? but could not get reliable sequence from them. These were fixed in formalin. 
 
