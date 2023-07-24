@@ -3,6 +3,9 @@
 # files archived that need fixing 
 old/  
 
+# large file output from phylogenetic analyses (i.e. BEAST2)
+*.trees
+
 # Mac Finder information
 .DS_Store
 

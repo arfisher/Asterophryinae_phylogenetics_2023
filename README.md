@@ -50,7 +50,7 @@ Each phylogenetic folder contains:
 	+ To start, this folder only contains the shell script. All other files are produced by the script. 
 	+ __bestmodel_nomerge__ - modelsearch results without combining partitions. Performs worse than partitionfinder, so we donʻt use this. 
 - __beast__ 
-	+ beast_projectname.xml - the input xml file that must be created by BEAUti using the results of the modelsearch. Detailed instructions for how to create this .xml file are here:  <https://docs.google.com/document/d/1xywH3O6_cJWZ_7ZFdmdzQN7VlfNo9LsOPtO7yw9vzTg/edit>
+	+ __beast_projectname.xml__ - the input xml file must be created using __BEAUti__ with the results of the modelsearch and our inputs. Detailed instructions for how to create this .xml file are here:  <https://docs.google.com/document/d/1xywH3O6_cJWZ_7ZFdmdzQN7VlfNo9LsOPtO7yw9vzTg/edit>
 	+ __run1__ - __beastrun.slurm__ runs the analysis on the UH-HPC supercomputer cluster. Customize the jobnames if you want to differentiate them.
 	+ __run2__ - __beastrun.slurm__ runs a second independent analysis on the UH-HPC supercomputer cluster
 	+ Instructions on how to upload to the UHM HPC (MANA/KOA) and run analyeses are here: <https://docs.google.com/document/d/1cdnyFgO3RD7wWOLYnU0DbHxsuYtBcwty0GvJlPJK8tE/edit>
