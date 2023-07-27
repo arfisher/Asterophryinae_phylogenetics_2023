@@ -1,0 +1,101 @@
+
+The following have been reloaded with a version change:
+  1) compiler/GCCcore/10.3.0 => compiler/GCCcore/6.3.0
+  2) lang/Java/11.0.2 => lang/Java/1.8.0_191
+  3) numlib/beagle-lib/3.1.2-GCC-10.3.0 => numlib/beagle-lib/3.0.2-intel-2018.5.274
+  4) tools/binutils/2.36.1-GCCcore-10.3.0 => tools/binutils/2.26-GCCcore-6.3.0
+
+File: beast_oreophryne_senkenbergiana.xml seed: 1690310396280 threads: 1
+Loading package ORC v1.1.1 Recombination v1.0.0 BEASTLabs v2.0.0 BDSKY v1.5.0 SSM v1.2.0 FastRelaxedClockLogNormal v1.2.0 BEAST.app v2.7.3 BEAST.base v2.7.3    
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 196 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 104 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 115 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 271 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 249 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 199 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 170 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 162 unique site patterns.
+  Using rescaling scheme : dynamic
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Operator                                                                                                                 Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+AdaptableOperatorSampler(gammaShapeScaler.s:sia_pos1_bdnf_pos2_bdnf_pos3_nxc_pos1)                                            -       1491      40561    0.00042    0.03546 
+beast.base.inference.operator.DeltaExchangeOperator(TVMefRateDeltaExchanger.s:sia_pos1_bdnf_pos2_bdnf_pos3_nxc_pos1)    0.65722      15461      68034    0.00084    0.18517 
+AdaptableOperatorSampler(gammaShapeScaler.s:sia_pos2_nxc_pos2)                                                                -       4346      37170    0.00042    0.10468 
+beast.base.inference.operator.DeltaExchangeOperator(TPM2RateDeltaExchanger.s:sia_pos2_nxc_pos2)                         0.60622      18089      65269    0.00084    0.21700 
+AdaptableOperatorSampler(kappa1Scaler.s:sia_pos3)                                                                             -      11847      29822    0.00042    0.28431 
+AdaptableOperatorSampler(kappa2Scaler.s:sia_pos3)                                                                             -      11658      30006    0.00042    0.27981 
+AdaptableOperatorSampler(gammaShapeScaler.s:sia_pos3)                                                                         -       9792      32049    0.00042    0.23403 
+beast.base.inference.operator.DeltaExchangeOperator(K80RateDeltaExchanger.s:bdnf_pos1_nxc_pos3)                         0.19350      20611      63047    0.00084    0.24637 
+AdaptableOperatorSampler(gammaShapeScaler.s:bdnf_pos1_nxc_pos3)                                                               -       9417      32585    0.00042    0.22420 
+AdaptableOperatorSampler(RateACScaler.s:cyb_pos1_nd4_pos1)                                                                    -      10230      31840    0.00042    0.24317 
+AdaptableOperatorSampler(RateAGScaler.s:cyb_pos1_nd4_pos1)                                                                    -      10595      31093    0.00042    0.25415 
+AdaptableOperatorSampler(RateATScaler.s:cyb_pos1_nd4_pos1)                                                                    -      11239      30840    0.00042    0.26709 
+AdaptableOperatorSampler(RateCGScaler.s:cyb_pos1_nd4_pos1)                                                                    -      12144      29422    0.00042    0.29216 
+AdaptableOperatorSampler(RateGTScaler.s:cyb_pos1_nd4_pos1)                                                                    -      11704      29914    0.00042    0.28122 
+AdaptableOperatorSampler(gammaShapeScaler.s:cyb_pos1_nd4_pos1)                                                                -       9293      32474    0.00042    0.22250 
+AdaptableOperatorSampler(gammaShapeScaler.s:cyb_pos2_nd4_pos2)                                                                -       9033      32828    0.00042    0.21579 
+AdaptableOperatorSampler(RateACScaler.s:cyb_pos2_nd4_pos2)                                                                    -      11996      29991    0.00042    0.28571 
+AdaptableOperatorSampler(RateAGScaler.s:cyb_pos2_nd4_pos2)                                                                    -      11781      30080    0.00042    0.28143 
+AdaptableOperatorSampler(RateATScaler.s:cyb_pos2_nd4_pos2)                                                                    -      12150      29712    0.00042    0.29024 
+AdaptableOperatorSampler(RateCGScaler.s:cyb_pos2_nd4_pos2)                                                                    -      12104      29580    0.00042    0.29038 
+AdaptableOperatorSampler(RateGTScaler.s:cyb_pos2_nd4_pos2)                                                                    -      13307      28937    0.00042    0.31500 
+beast.base.inference.operator.DeltaExchangeOperator(TIM2ufRateDeltaExchanger.s:cyb_pos3)                                0.19699       9084      74713    0.00084    0.10840 
+beast.base.inference.operator.DeltaExchangeOperator(TIM2ufFrequenciesExchanger.s:cyb_pos3)                              0.02258      19931      63894    0.00084    0.23777 
+AdaptableOperatorSampler(gammaShapeScaler.s:cyb_pos3)                                                                         -      11483      30164    0.00042    0.27572 
+AdaptableOperatorSampler(kappa1Scaler.s:nd4_pos3)                                                                             -      10804      30631    0.00042    0.26075 
+AdaptableOperatorSampler(kappa2Scaler.s:nd4_pos3)                                                                             -      10769      30970    0.00042    0.25801 
+AdaptableOperatorSampler(gammaShapeScaler.s:nd4_pos3)                                                                         -      11272      30536    0.00042    0.26961 
+ScaleOperator(ucldStdevScaler.c:BD)                                                                                     0.83656     466693    2039408    0.02508    0.18622 
+beast.base.inference.operator.IntRandomWalkOperator(CategoriesRandomWalk.c:BD)                                                -    5495326    2860259    0.08361    0.65768 
+beast.base.inference.operator.SwapOperator(CategoriesSwapOperator.c:BD)                                                       -    2656392    5709318    0.08361    0.31753 
+beast.base.inference.operator.UniformOperator(CategoriesUniform.c:BD)                                                         -    3764050    4595323    0.08361    0.45028 
+EpochFlexOperator(BirthDeathBICEPSEpochTop.t:iqtree)                                                                    0.05863     632746    1039998    0.01672    0.37827 
+EpochFlexOperator(BirthDeathBICEPSEpochAll.t:iqtree)                                                                    0.05933     622005    1050647    0.01672    0.37187 
+TreeStretchOperator(BirthDeathBICEPSTreeFlex.t:iqtree)                                                                  0.02378     690101     981783    0.01672    0.41277 Try setting scale factor to about 0.025
+kernel.BactrianScaleOperator(BirthDeathTreeRootScaler.t:iqtree)                                                         0.08246     730543    1779559    0.02508    0.29104 
+kernel.BactrianNodeOperator(BirthDeathUniformOperator.t:iqtree)                                                         0.94562    7637976   17450053    0.25084    0.30445 
+kernel.BactrianSubtreeSlide(BirthDeathSubtreeSlide.t:iqtree)                                                            0.88521    2750443    9793690    0.12542    0.21926 
+Exchange(BirthDeathNarrow.t:iqtree)                                                                                           -     835691   11705259    0.12542    0.06664 
+Exchange(BirthDeathWide.t:iqtree)                                                                                             -        561    2505259    0.02508    0.00022 
+WilsonBalding(BirthDeathWilsonBalding.t:iqtree)                                                                               -       1823    2506458    0.02508    0.00073 
+kernel.BactrianScaleOperator(BirthRateScaler.t:iqtree)                                                                  0.15506     736023    1771882    0.02508    0.29348 
+kernel.BactrianScaleOperator(DeathRateScaler.t:iqtree)                                                                  2.38654     656205    1851095    0.02508    0.26172 
+ScaleOperator(ucldMeanScaler.c:BD)                                                                                      0.85477     123197     713585    0.00836    0.14723 
+beast.base.inference.operator.UpDownOperator(relaxedUpDownOperator.c:BD)                                                0.83652     564081    1944776    0.02508    0.22484 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+

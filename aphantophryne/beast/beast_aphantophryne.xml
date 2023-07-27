@@ -268,8 +268,8 @@ spec="Alignment">
 
     <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
 
-    <run id="mcmc" spec="MCMC" chainLength="100000000" storeEvery="100000">
-        <state id="state" spec="State" storeEvery="5000">
+    <run id="mcmc" spec="MCMC" chainLength="200000000" storeEvery="100000">
+        <state id="state" spec="State" storeEvery="100000">
             <tree id="Tree.t:merge" spec="beast.base.evolution.tree.Tree" name="stateNode">
                 <taxonset id="TaxonSet.sia_pos1_sia_pos2_bdnf_pos3_nxc_pos2" spec="TaxonSet">
                     <alignment id="sia_pos1_sia_pos2_bdnf_pos3_nxc_pos2" spec="FilteredAlignment" filter="1-407\3,2-407\3,410-924\3,926-1479\3">
