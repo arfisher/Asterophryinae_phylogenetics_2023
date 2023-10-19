@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name=osen2
+#SBATCH --partition=shared
+#SBATCH --time=03-00:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=120000
+
+#SBATCH --core-spec=0 ## Uncommented to allow jobs to request all cores on a node
+##SBATCH --constraint="ib_qdr"
+
+#SBATCH --error=oreo2-%A.err ## %A - filled with jobid
+#SBATCH --output=oreo2-%A.out ## %A - filled with jobid
+#SBATCH --mail-user=mbutler@hawaii.edu
+#SBATCH --mail-type=BEGIN,END,FAIL,REQUEUE,TIME_LIMIT_80
+
+source ~/.bash_profile
+
+module load bio/Beast/2.7.5-GCC-11.3.0
+beast -resume -beagle_CPU ../oreophryne_senkenbergiana.xml

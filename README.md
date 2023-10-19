@@ -57,6 +57,14 @@ Each phylogenetic folder contains:
 
 # Notes
 
+__10-19-2023__ 
+- Suspect issue with Beast2 handling of ambiguity codes use IQTREE2.
+- Final phylogeny with new Aphantophryne species and Oreophryne type specimens is in __update20231019__ > modelsearch folder.
+	+ The .contree shows toplogy and branch lengths, clearer depiction of internal branches
+	+ Time-smoothed tree in .timetree.nex
+- Former oreophryne folder renamed __oreophryne_without_newaphantophryne__	
+- All other folders moved to __old__
+
 __07-22-2023__
 - Big update to directory structure. 
 	+ Deleted old directories (incorrect phylogenies based on errors in datasets). 

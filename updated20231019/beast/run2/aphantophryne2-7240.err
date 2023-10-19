@@ -1,0 +1,43 @@
+File: aphantophryne.xml seed: 1691228893645 threads: 1
+Loading package FastRelaxedClockLogNormal v1.2.0 contacTrees v1.2.0 snapper v1.1.3 PoMo v1.1.1 EpiInf v8.0.0 MASTER v7.0.0 lphybeast v1.0.2 SSM v1.2.0 STACEY v1.3.1 MM v1.2.1 SNAPP v1.6.1 MODEL_SELECTION v1.6.1 BDSKY v1.5.0 ORC v1.1.2 BICEPS v1.1.1 BEASTLabs v2.0.1 SCOTTI v3.0.0 BEAST.base v2.7.5 phylodynamics v1.4.0 Babel v0.4.2 BDMM v2.0.0 starbeast3 v1.1.7 BEASTvntr v0.2.0 phylonco v1.0.1 BADTRIP v2.0.0 timtam v0.4.0 PIQMEE v1.1.0 bacter v3.0.1 speedemon v1.1.0 Recombination v1.0.1 BREAK_AWAY v1.2.0 GEO_SPHERE v1.4.1 bModelTest v1.3.3 BEAST.app v2.7.5 ClaDS v2.0.3 DENIM v1.1.1 Mascot v3.0.0 feast v9.4.0 BEAST_CLASSIC v1.6.2 CA v2.1.0 CodonSubstModels v2.0.0 NS v1.2.1 MSBD v2.0.2 PhyDyn v1.4.0 CoupledMCMC v1.2.1 MGSM v0.4.0 BASTA v4.0.0 OBAMA v1.1.1 CoalRe v1.0.3 SA v2.1.1 bdtree v0.0.1 contraband v1.0.1 TreeStat2 v0.1.1 starbeast2 v1.0.0 LPhyBeastExt v0.2.1 MultiTypeTree v8.0.0 SpeciesNetwork v1.0.0    
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 231 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 115 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 272 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 59 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 249 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 199 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 170 unique site patterns.
+  Using rescaling scheme : dynamic
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 162 unique site patterns.
+  Using rescaling scheme : dynamic
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+Warning: removing transform class beast.base.inference.operator.kernel.Transform$LogConstrainedSumTransform because it should have at least 2 dimensions but it has 0
+End likelihood: -86198.38400356822
